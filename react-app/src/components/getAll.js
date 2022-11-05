@@ -266,7 +266,7 @@ function EnhancedTableToolbar(props) {
     var isCreate = false;
 
     fields.map((field) => {
-      if (!field.name || !field.type || !field.price || !field.rating || !field.warranty_years || (field.available !== "Oui" && field.available !== "Non")) {
+      if (!field.name || !field.type || !field.price || field.price === -1 || !field.rating || field.rating === -1 || !field.warranty_years || field.warranty_years === -1 || (field.available !== "Oui" && field.available !== "Non")) {
         return null;
       }
       toggleAddPopup();
