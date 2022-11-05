@@ -13,7 +13,7 @@ Il y a deux dossiers au root, un dossier **nodejs-express-server** et un dossier
   - `cd react-app`
     - `npm install`
     - `npm start`
-    - Votre serveur tourne sur le port 8080 **(http://localhost:3000/)**
+    - Votre serveur tourne sur le port 3000 **(http://localhost:3000/)**
 
 La liste des produits se fait sur la page initial.
 Tous se fait sur la même page.
