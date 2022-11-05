@@ -20,7 +20,7 @@ Tous se fait sur la même page.
 
 ## 🌐 Routes
 
-  - Récuperer un produit : **http://localhost:8080/api/getAll**
+  - Récuperer les produits : **http://localhost:8080/api/getAll**
   - Créer un produit : **http://localhost:8080/api/create**
   - Modifier un / des produit(s) : **http://localhost:8080/api/update**
   - Supprimer un / des produit(s) : **http://localhost:8080/api/delete**
